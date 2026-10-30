@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>scan Barcode Verification System</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="imagejpg.jpeg" alt="logo of the company">
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="scan.html">scan</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="log_in.html">login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Verify a medicine</h1>
+        <p class="intro">Enter the barcode or batch number printed on the packaging and check whether the medicine is registered.</p>
+
+        <section class="scan">
+            <div class="card">
+                <h2>Enter the code</h2>
+                <form action="#" method="post">
+                    <label for="code">Barcode or batch number</label>
+                    <input type="text" id="code" name="code" placeholder="e.g. 6161234567890" required>
+
+                    <button type="submit">Verify medicine</button>
+                </form>
+                <p class="note">Check that the code is typed correctly. A wrong digit gives a wrong result.</p>
+            </div>
+
+            <div class="card" id="result" aria-live="polite">
+                <h2>Result</h2>
+                <p class="status">Waiting for a code</p>
+                <dl>
+                    <dt>Medicine name</dt>
+                    <dd>-</dd>
+                    <dt>Manufacturer</dt>
+                    <dd>-</dd>
+                    <dt>Registration status</dt>
+                    <dd>-</dd>
+                    <dt>Batch number and expiry date</dt> 
+                    <dd>-</dd>
+                    <dt>Recalls or safety alerts</dt>
+                    <dd>-</dd>
+                </dl>
+                <p class="note">If a medicine is not found, it could not be confirmed. Ask a pharmacist or contact the PPB.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Medicine Safety Verification System</p>
+        <p>Email: support@example.com</p>
+        <p>Phone: +254 700 000 000</p>
+        <p>&copy; 2026 Medicine Safety Verification System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
