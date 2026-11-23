@@ -1,7 +1,7 @@
 
 <?php
 $page_title = 'Our routes';
-include 'header.php';
+include 'includes/header.php';
 ?>
   <main>
     <h2>Our routes</h2>
@@ -34,4 +34,4 @@ include 'header.php';
     </section>
   </main>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'includes/footer.php'; ?>

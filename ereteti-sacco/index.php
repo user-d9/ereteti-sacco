@@ -1,7 +1,7 @@
 
 <?php
 $page_title = 'Welcome to Ereteti';
-include 'header.php';
+include 'includes/header.php';
 ?>
   <main>
     <section>
@@ -26,7 +26,7 @@ include 'header.php';
     </section>
   </main>
 
-  <?php include 'footer.php'; ?>
+  <?php include 'includes/footer.php'; ?>
 
 
 
